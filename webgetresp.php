@@ -13,20 +13,20 @@ if(!empty($_GET['cmd'])) {
 	print "cmdreq: ".$_GET['cmd']."<br>";
 }
 
-//$host = "sql9.freesqldatabase.com";
-//$username = "sql9299052";
-//$password = "UNTQL7TlWC";
-//$DBName = "sql9299052";
+$host = "remotemysql.com";
+$username = "sETFHeGQOd";
+$password = "n2wkEU8OXY";
+$DBName = "sETFHeGQOd";
 
 //$host = "localhost";
 //$username = "id10208739_sa";
 //$password = "admin";
 //$DBName = "id10208739_db_sample";
 
-$host = "www.db4free.net";
-$username = "eddysa";
-$password = "eddyadmin";
-$DBName = "eddydb_sample";
+//$host = "www.db4free.net";
+//$username = "eddysa";
+//$password = "eddyadmin";
+//$DBName = "eddydb_sample";
 
 $conn = mysqli_connect($host,$username,$password) or die(mysql_error());
 $db = mysqli_select_db($conn,$DBName) or die(mysql_error());
