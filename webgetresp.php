@@ -13,10 +13,16 @@ if(!empty($_GET['cmd'])) {
 	print "cmdreq: ".$_GET['cmd']."<br>";
 }
 
-$host = "remotemysql.com";
-$username = "sETFHeGQOd";
-$password = "n2wkEU8OXY";
-$DBName = "sETFHeGQOd";
+//openshift
+$host = "http://172.30.201.140:3360";
+$username = "sa";
+$password = "admin";
+$DBName = "sampledb";
+
+//$host = "remotemysql.com";
+//$username = "sETFHeGQOd";
+//$password = "n2wkEU8OXY";
+//$DBName = "sETFHeGQOd";
 
 //$host = "localhost";
 //$username = "id10208739_sa";
