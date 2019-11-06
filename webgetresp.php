@@ -14,15 +14,15 @@ if(!empty($_GET['cmd'])) {
 }
 
 //openshift
-$host = "172.30.201.140";
-$username = "sa";
-$password = "admin";
-$DBName = "sampledb";
+//$host = "172.30.201.140";
+//$username = "sa";
+//$password = "admin";
+//$DBName = "sampledb";
 
-//$host = "remotemysql.com";
-//$username = "sETFHeGQOd";
-//$password = "n2wkEU8OXY";
-//$DBName = "sETFHeGQOd";
+$host = "remotemysql.com";
+$username = "sETFHeGQOd";
+$password = "n2wkEU8OXY";
+$DBName = "sETFHeGQOd";
 
 //$host = "localhost";
 //$username = "id10208739_sa";
