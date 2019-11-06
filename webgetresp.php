@@ -14,7 +14,7 @@ if(!empty($_GET['cmd'])) {
 }
 
 //openshift
-$host = "http://172.30.201.140:3360";
+$host = "http://172.30.201.140";
 $username = "sa";
 $password = "admin";
 $DBName = "sampledb";
