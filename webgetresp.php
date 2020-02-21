@@ -26,13 +26,9 @@ if(!empty($_GET['cmd'])) {
 
 $host = "sql305.epizy.com";
 $username = "epiz_25232289";
-$password = "eddyko100";
+$password = "eoaRzo5Fl2";
 $DBName = "epiz_25232289_sampledb";
 
-//$host = "www.db4free.net";
-//$username = "eddysa";
-//$password = "eddyadmin";
-//$DBName = "eddydb_sample";
 
 $conn = mysqli_connect($host,$username,$password) or die(mysql_error());
 $db = mysqli_select_db($conn,$DBName) or die(mysql_error());
