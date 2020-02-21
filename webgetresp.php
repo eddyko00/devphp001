@@ -19,15 +19,15 @@ if(!empty($_GET['cmd'])) {
 //$password = "admin";
 //$DBName = "sampledb";
 
-$host = "remotemysql.com";
-$username = "sETFHeGQOd";
-$password = "n2wkEU8OXY";
-$DBName = "sETFHeGQOd";
+//$host = "remotemysql.com";
+//$username = "sETFHeGQOd";
+//$password = "n2wkEU8OXY";
+//$DBName = "sETFHeGQOd";
 
-//$host = "localhost";
-//$username = "id10208739_sa";
-//$password = "admin";
-//$DBName = "id10208739_db_sample";
+$host = "sql305.epizy.com";
+$username = "epiz_25232289";
+$password = "eddyko100";
+$DBName = "epiz_25232289_sampledb";
 
 //$host = "www.db4free.net";
 //$username = "eddysa";
