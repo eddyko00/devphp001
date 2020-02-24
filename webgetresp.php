@@ -19,15 +19,11 @@ if(!empty($_GET['cmd'])) {
 //$password = "admin";
 //$DBName = "sampledb";
 
-//$host = "remotemysql.com";
-//$username = "sETFHeGQOd";
-//$password = "n2wkEU8OXY";
-//$DBName = "sETFHeGQOd";
+$host = "remotemysql.com";
+$username = "sETFHeGQOd";
+$password = "n2wkEU8OXY";
+$DBName = "sETFHeGQOd";
 
-$host = "sql305.epizy.com";
-$username = "epiz_25232289";
-$password = "eoaRzo5Fl2";
-$DBName = "epiz_25232289_sampledb";
 
 
 $conn = mysqli_connect($host,$username,$password) or die(mysql_error());
