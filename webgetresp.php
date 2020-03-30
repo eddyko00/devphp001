@@ -19,15 +19,17 @@ if(!empty($_GET['cmd'])) {
 //$password = "admin";
 //$DBName = "sampledb";
 
-//$host = "remotemysql.com";
-//$username = "sETFHeGQOd";
-//$password = "n2wkEU8OXY";
-//$DBName = "sETFHeGQOd";
 
-$host = "www.db4free.net";
-$username = "eddysa";
-$password = "eddyadmin";
-$DBName = "eddydb_sample";
+// db4free very slow
+//$host = "www.db4free.net";
+//$username = "eddysa";
+//$password = "eddyadmin";
+//$DBName = "eddydb_sample";
+
+$host = "remotemysql.com";
+$username = "sETFHeGQOd";
+$password = "n2wkEU8OXY";
+$DBName = "sETFHeGQOd";
 
 $conn = mysqli_connect($host,$username,$password) or die(mysql_error());
 $db = mysqli_select_db($conn,$DBName) or die(mysql_error());
