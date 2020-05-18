@@ -26,15 +26,15 @@ if(!empty($_GET['cmd'])) {
 //$password = "eddyadmin";
 //$DBName = "eddydb_sample";
 
-$host = "remotemysql.com";
-$username = "sETFHeGQOd";
-$password = "n2wkEU8OXY";
-$DBName = "sETFHeGQOd";
+//$host = "remotemysql.com";
+//$username = "sETFHeGQOd";
+//$password = "n2wkEU8OXY";
+//$DBName = "sETFHeGQOd";
 
-//$host = "bmppikx9mn79axgjlhh4-mysql.services.clever-cloud.com";
-//$username = "uphyltwqsqsipjri";
-//$password = "5V7FaMjFWryhGXYcagw2";
-//$DBName = "bmppikx9mn79axgjlhh4";
+$host = "bmppikx9mn79axgjlhh4-mysql.services.clever-cloud.com";
+$username = "uphyltwqsqsipjri";
+$password = "5V7FaMjFWryhGXYcagw2";
+$DBName = "bmppikx9mn79axgjlhh4";
 
 $conn = mysqli_connect($host,$username,$password) or die(mysql_error());
 $db = mysqli_select_db($conn,$DBName) or die(mysql_error());
