@@ -31,10 +31,10 @@ if(!empty($_GET['cmd'])) {
 //$password = "n2wkEU8OXY";
 //$DBName = "sETFHeGQOd";
 
-//$host = "sql106.unaux.com";
-//$username = "unaux_27194797";
-//$password = "eddyko100";
-//$DBName = "unaux_27194797_sampledb";
+//$host = "sql9.freemysqlhosting.net";
+//$username = "sql9376612";
+//$password = "p4WL3psmvm";
+//$DBName = "sql9376612";
 
 $host = "bmppikx9mn79axgjlhh4-mysql.services.clever-cloud.com";
 $username = "uphyltwqsqsipjri";
