@@ -31,17 +31,16 @@ if(!empty($_GET['cmd'])) {
 //$password = "n2wkEU8OXY";
 //$DBName = "sETFHeGQOd";
 
-//iisweb
+$host = "sql9.freemysqlhosting.net";
+$username = "sql9376612";
+$password = "p4WL3psmvm";
+$DBName = "sql9376612";
+
+
 //$host = "bmppikx9mn79axgjlhh4-mysql.services.clever-cloud.com";
 //$username = "uphyltwqsqsipjri";
 //$password = "5V7FaMjFWryhGXYcagw2";
 //$DBName = "bmppikx9mn79axgjlhh4";
-
-//iisweb stock
-$host = "bqio5qbjdxfdodozozpn-mysql.services.clever-cloud.com";
-$username = "ugnzckdahwhrgeof";
-$password = "pdOktR5CxYC9V03Uns3t";
-$DBName = "bqio5qbjdxfdodozozpn";
 
 $conn = mysqli_connect($host,$username,$password) or die(mysql_error());
 $db = mysqli_select_db($conn,$DBName) or die(mysql_error());
