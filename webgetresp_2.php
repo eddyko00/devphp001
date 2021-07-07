@@ -26,15 +26,11 @@ if(!empty($_GET['cmd'])) {
 //$password = "eddyadmin";
 //$DBName = "eddydb_sample";
 
-//$host = "remotemysql.com";
-//$username = "sETFHeGQOd";
-//$password = "n2wkEU8OXY";
-//$DBName = "sETFHeGQOd";
 
-$host = "sql9.freemysqlhosting.net";
-$username = "sql9376612";
-$password = "p4WL3psmvm";
-$DBName = "sql9376612";
+$host = "remotemysql.com";
+$username = "qrhs901Ddt";
+$password = "YKA5Fa4hhb";
+$DBName = "qrhs901Ddt";
 
 
 //$host = "bmppikx9mn79axgjlhh4-mysql.services.clever-cloud.com";
