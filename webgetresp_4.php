@@ -36,9 +36,9 @@ if(!empty($_GET['cmd'])) {
 //$DBName = "qrhs901Ddt";
 
 $host = "fdb34.awardspace.net";
-$username = "3891837_db";
+$username = "3893119_db";
 $password = "admin100";
-$DBName = "3891837_db";
+$DBName = "3893119_db";
 
 $conn = mysqli_connect($host,$username,$password) or die(mysql_error());
 $db = mysqli_select_db($conn,$DBName) or die(mysql_error());
